@@ -41,8 +41,17 @@ switch ($maincat){
 
 
         break;
-    case "":
-        //code for category goes here;
+    case "better":
+
+        echo "<h2>Better For You</h2>";
+        $better = $Menu[1];
+
+        foreach (array_slice($better,3) as $value) {
+            echo "<a href='".$value['Link']."'>
+                <img class='img-responsive' src='".$value['ImageLoc']."' alt=''>
+                <h3>".$value['Title']."</h3>
+            </a>";
+        }
         break;
     case "":
         //code for category goes here;

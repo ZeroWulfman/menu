@@ -23,7 +23,10 @@ $Menu = array (
                 array('Title' => 'Savory Cedar Salmon', 'ImageLoc' => 'llama'),
                 array('Title' => 'Shrimp Wonton Stir-Fry', 'ImageLoc' => 'llama'))
         ),
-    'Drinks' => array(
+    array('Title' => 'Beverages',
+        'ImageLoc' => 'llama',
+        'Link' => '',
+        array('Title' =>)
         'Beers' => array(
             array(),
             array()
