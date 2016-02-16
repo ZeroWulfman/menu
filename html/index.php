@@ -29,11 +29,16 @@ switch ($maincat){
 
         break;
     case "twofor":
-        <!-- var_dump($Menu[0]); -->
+        echo "<h2>Two For Twenty</h2>";
         $twofor = $Menu[0];
-        foreach($twofor as $value) {
-            echo $value;
+
+        foreach (array_slice($twofor,3) as $value) {
+            echo "<a href='".$value['Link']."'>
+                <img class='img-responsive' src='".$value['ImageLoc']."' alt=''>
+                <h3>".$value['Title']."</h3>
+            </a>";
         }
+
 
         break;
     case "":

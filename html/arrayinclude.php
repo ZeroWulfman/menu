@@ -3,12 +3,13 @@ $Menu = array (
     array('Title' => 'Two For Twenty',
         'ImageLoc' => './img/maincat/2for20.jpg',
         'Link' => './?category=twofor',
-        array('Title' => 'Appetizer',
-            'ImageLoc' => './img/twofor/mozzarella_sticks.jpg',
-                array('Title' => 'Mozzarella Sticks', 'ImageLoc' => './img/twofor/mozzarella_sticks.jpg'),
-                array('Title' => 'Crunchy Onion Rings', 'ImageLoc' => './img/twofor/onion_rings.jpg'),
-                array('Title' => 'Two Side Salads(House or Caesar)', 'ImageLoc' => './img/twofor/caesar_salad.jpg')),
-        array('Title' => 'Entree',
+        array('Title' => 'Appetizers',
+            'ImageLoc' => './img/twofor/app/mozzarella_sticks.jpg',
+            'Link' => './page.php',
+                array('Title' => 'Mozzarella Sticks', 'ImageLoc' => './img/twofor/app/mozzarella_sticks.jpg'),
+                array('Title' => 'Crunchy Onion Rings', 'ImageLoc' => './img/twofor/app/onion_rings.jpg'),
+                array('Title' => 'Two Side Salads(House or Caesar)', 'ImageLoc' => './img/twofor/app/caesar_salad.jpg')),
+        array('Title' => 'Entrees',
             'ImageLoc' => 'llama',
                 array('Title' => 'Three-Cheese Chicken Penne', 'ImageLoc' => 'llama'),
                 array('Title' => 'Chicken Tenders Basket', 'ImageLoc' => 'llama'),
@@ -21,7 +22,7 @@ $Menu = array (
                 array('Title' => 'Hot Shot Whiskey Chicken', 'ImageLoc' => 'llama'),
                 array('Title' => 'Savory Cedar Salmon', 'ImageLoc' => 'llama'),
                 array('Title' => 'Shrimp Wonton Stir-Fry', 'ImageLoc' => 'llama'))
-    ),
+        ),
     'Drinks' => array(
         'Beers' => array(
             array(),
